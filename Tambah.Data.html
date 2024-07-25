@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Dosen</title>
+    <link rel="stylesheet" href="Tambah.Data.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="header">
+        <span class="version">UNIVERSITAS AMIKOM YOGYAKARTA</span>
+        <a href="Login.HTML"><button class="logout">LOGOUT</button></a>
+    </div>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="profile-pic"><img src="logo.profil.png" width="10%" height="10%"></div>
+                <h2>Nama Dosen</h2>
+                <p>NIP</p>
+                <a href="Tambah.Data.html"class="edit-profile">Edit Profile</a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <ol><a href="Dashboard.HTML"><ul class="menu-item"> <img src="D:\UAS_PemrogramanWeb\gambar\logo home.png" width="10%" height="10%" class="marg">Dashboard</ul></a></ol>
+                    <ol><a href="Rekapitulasi nilai.html"><ul class="menu-item"> <img src="D:\UAS_PemrogramanWeb\gambar\logo.rekap.png" width="10%" height="10%" class="marg">Rekapitulasi Nilai</ul></a></ol>
+                </ul>
+            </nav>
+        </aside>
+        <div class="main-content">
+            <section class="data-lengkap">
+                <h2>Data Lengkap Dosen</h2>
+                <form>
+                    <div class="form-section">
+                        <h3>Biodata Dosen</h3>
+                        <label>NIDN (Nomor Induk Dosen Nasional)*</label>
+                        <input type="text">
+                        <label>Nama Lengkap*</label>
+                        <input type="text">
+                        <label>Gelar Depan</label>
+                        <input type="text">
+                        <label>Gelar Belakang</label>
+                        <input type="text">
+                        <label>Agama</label>
+                        <input type="text">
+                        <label>Jenis Kelamin</label>
+                        <input type="text">
+                        <label>Tempat Lahir</label>
+                        <input type="text">
+                        <label>Tanggal Lahir</label>
+                        <input type="date">
+                        <label>Kewarganegaraan</label>
+                        <input type="text">
+                        <label>No. Telp</label>
+                        <input type="tel">
+                        <label>No. Telpon Alternatif</label>
+                        <input type="tel">
+                        <label>Email</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-section">
+                        <h3>Data Alamat Asal</h3>
+                        <label>Alamat</label>
+                        <input type="text">
+                        <label>Kecamatan/Kabupaten/Provinsi</label>
+                        <input type="text">
+                        <label>Kode Pos</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-section">
+                        <h3>Data Alamat Tinggal</h3>
+                        <label>Alamat</label>
+                        <input type="text">
+                        <label>Kecamatan/Kabupaten/Provinsi</label>
+                        <input type="text">
+                        <label>Kode Pos</label>
+                        <input type="text">
+                    </div>
+                    <button type="submit" class="save-btn">Simpan Data</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

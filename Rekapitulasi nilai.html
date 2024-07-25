@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Dosen</title>
+    <link rel="stylesheet" href="Rekapitulasi nilai.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="header">
+        <span class="version">UNIVERSITAS AMIKOM YOGYAKARTA</span>
+        <a href="Login.HTML"><button class="logout">LOGOUT</button></a>
+    </div>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="profile-pic"><img src="D:\UAS_PemrogramanWeb\gambar\logo.profile.png" width="10%" height="10%" class="marg"></div>
+                <h2>Nama Dosen</h2>
+                <p>NIP</p>
+                <a href="Tambah.Data.html" class="edit-profile">Edit Profile</a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <ol><a href="Dashboard.HTML"><ul class="menu-item"> <img src="D:\UAS_PemrogramanWeb\gambar\logo home.png" width="10%" height="10%" class="marg">Dashboard</ul></a></ol>
+                    <ol><a href="Rekapitulasi nilai.html"><ul class="menu-item"> <img src="D:\UAS_PemrogramanWeb\gambar\logo.rekap.png" width="10%" height="10%" class="marg">Rekapitulasi Nilai</ul></a></ol>
+                </ul>
+            </nav>
+        </aside>
+        <div class="main-content">
+            <h1>Rekapitulasi Nilai</h1>
+                <div class="filters-container">
+                    <div class="filters-header">
+                        <span>Semester</span>
+                        <span>Tahun Ajaran</span>
+                        <span>Fakultas</span>
+                        <span>Program Studi</span>
+                        <span>Kelas</span>
+                    </div>
+                <div class="filters">
+                    <select>
+                        <option>Ganjil</option>
+                        <option>Genap</option>
+                    </select>
+                    <select>
+                        <option>2023 / 2024</option>
+                        <option>2024 / 2025</option>
+                    </select>
+                    <select>
+                        <option>Ilmu Komputer</option>
+                    </select>
+                    <select>
+                        <option>D3 Teknik Informatika</option>
+                        <option>S1 Informatika</option>
+                        <option>S1 Sistem Informasi</option>
+                    </select>
+                    <select>
+                        <option>23-D3TI03</option>
+                        <option>23-D3TI01</option>
+                        <option>23-D3TI02</option>
+                    </select>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Cari Nama / NIM">
+                <button class="search-button">Cari</button>
+            </div>
+            <div>
+                <div class="upload-container">
+                    <label for="upload-nilai" class="upload-button">
+                        <img src="D:\UAS_PemrogramanWeb\gambar\icon excell.png" width=15% height="15%" alt="XLS Icon" class="icon">
+                        Upload Nilai
+                    </label>
+                    <input type="file" id="upload-nilai" accept=".xls,.xlsx">
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Tugas 1</th>
+                        <th>Tugas 2</th>
+                        <th>Tugas 3</th>
+                        <th>Tugas 4</th>
+                        <th>Tugas 5</th>
+                        <th>Tugas 6</th>
+                        <th>Tugas 7</th>
+                        <th>Tugas 8</th>
+                        <th>Tugas 9</th>
+                        <th>Tugas 10</th>
+                        <th>UTS</th>
+                        <th>UAS</th>
+                        <th>Rata-rata</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>23.01.5102</td>
+                        <td>Mahasiswa</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                        <td>00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
